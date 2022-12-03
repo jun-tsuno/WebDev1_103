@@ -30,20 +30,6 @@ p {
 HEADER
 -------------------------------------- */
 
-/* .top {
-	background-color: antiquewhite;
-	display: flex;
-	justify-content: center;
-	padding: 50px;
-}
-
-.top-img {
-	max-width: 350px;
-	padding-right: 100px;
-}
-
-.title {
-} */
 .top {
 	position: relative;
 }
@@ -90,13 +76,9 @@ a:visited {
 /* -------------------------------------
 MAIN
 -------------------------------------- */
-.about {
-	margin-top: 50px;
-}
 
 .about-img {
 	width: 30%;
-	/* max-width: 220px; */
 	float: left;
 	margin: 10px;
 	min-width: 100px;
