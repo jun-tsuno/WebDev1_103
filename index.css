@@ -260,6 +260,10 @@ MEDIA QUERY
 
 /* Widescreen */
 @media screen and (min-width: 1280px) {
+	h2 {
+		font-size: 2em;
+	}
+
 	.title {
 		top: 20%;
 	}
@@ -272,7 +276,28 @@ MEDIA QUERY
 		font-size: 3em;
 	}
 
+	.about {
+		margin-bottom: 180px;
+	}
+
+	.about p {
+		font-size: 2em;
+	}
+
+	.main-article article {
+		max-width: 370px;
+	}
+
 	.detail-info {
 		max-width: 900px;
+		margin: 200px auto;
+	}
+
+	.img-container {
+		max-width: 500px;
+	}
+
+	.cards {
+		width: 450px;
 	}
 }
